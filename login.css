@@ -75,6 +75,7 @@ a:hover {
 }
 
 .signup-buttons {
+    display:inline-block;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,13 +83,16 @@ a:hover {
 }
 
 .signup-button {
-    display: flex;
+    display:inline-block;
     flex-direction: row;
-    width: 50px;
-    height: 50px;
+    justify-content: space-between;
+    width: 80px;
+    height: 55px;
     border: none;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 5px 5px 20px;
 }
 
 .signup-info {
