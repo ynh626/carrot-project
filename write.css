@@ -52,7 +52,7 @@ input[type="text"],
 input[type="password"]
 input[type="contents"]
 input[type="date"]  {
-    
+    outline-style:none;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
